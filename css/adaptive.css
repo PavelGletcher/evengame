@@ -15,6 +15,9 @@
   .even--game--items__btn--start {
     padding: 15px 60px;
   }
+  .section--evengame--start {
+    background-position: 60%;
+  }
 }
 @media (max-width: 400px) {
   .even--game--items__prev {
