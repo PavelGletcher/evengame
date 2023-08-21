@@ -1,0 +1,45 @@
+body {
+background-color: azure;
+font-size: 1.8rem;
+font-family: 'Minecraft';
+}
+
+.question--container {
+width: 100vw; height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 25px;
+}
+.question--answer input {
+  background-color: azure;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px -7px;
+  padding: 10px;
+  text-align: center;
+  transition: 0.4s;
+}
+.question--answer input::placeholder {
+  font-size: 1.2rem;
+  color: rgb(206, 206, 206);
+}
+.question--answer input:focus {
+  background-color: snow;
+}
+.btnbackinevengame {
+  cursor: pointer;
+  transition: 0.4s;
+}
+.btnbackinevengame:hover {
+  transform: scale(1.1);
+}
+
+
+.btngamesumrestart {
+  cursor: pointer;
+  transition: 0.4s;
+}
+.btngamesumrestart:hover {
+  transform: scale(1.1);
+}

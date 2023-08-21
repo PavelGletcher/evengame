@@ -1,0 +1,33 @@
+@media (max-width: 535px) {
+  body {
+    font-size: 1.2rem;
+  }
+  .even--game--items {
+    padding: 0px 100px;
+  }
+}
+@media (max-width: 670px) {
+  .even--game--items {
+    padding: 0px 50px;
+  }
+}
+@media (max-width: 455px) {
+  .even--game--items__btn--start {
+    padding: 15px 60px;
+  }
+}
+@media (max-width: 400px) {
+  .even--game--items__prev {
+    font-size: 2.7rem;
+  }
+  .even--game--items__btn--start {
+    padding: 15px 40px;
+  }
+
+  .even--game--items__btn--reset {
+    padding: 7px 30px;
+  }
+  .even--game--items__btn--reset {
+    padding: 7px 30px;
+  }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/font.css">
+  <link rel="stylesheet" href="./css/adaptive.css">
+  <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+  <meta name="description" content="EvenGame - игра, в которой необходимо определить четное чило или нет">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EvenGame | Четное не четное</title>
+</head>
+<body>
+  <main>
+    <div class="section--evengame--start">
+      <div class="even--game--items">
+        <div class="even--game--items__question">Число четное?</div>
+        <div class="even--game--items__randomitems"></div>
+        <div class="even--game--items__answer"><input class="answer" type="text"></div>
+        <div class="even--game--items__is">
+          <p></p>
+        </div>
+        <div class="even--game--items__clue">
+          <p>Напишите одним словом да/нет и нажмите enter</p>
+        </div>
+        <div class="even--game--items__btn--reset btn btnreset">Начать сначала</div>
+        <div class="even--game--items__btn--back btnback">Выход в меню</div>
+      </div>
+    </div>
+  </main>
+</body>
+<footer>
+  <script src="./scripts/evengame.js"></script>
+  <script src="./scripts/back.js"></script>
+  <script src="./scripts/click.js"></script>
+  <audio src="./sound/tavern.mp3" autoplay loop></audio>
+  <script>var vol = document.querySelector("audio"); vol.volume = 0.05;</script>
+</footer>
+</html>
