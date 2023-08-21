@@ -1,6 +1,6 @@
 body {
   font-family: 'minecraft', sans-serif;
-  cursor: url(/img/cursor.png), auto;
+  cursor: url(./img/cursor.png), auto;
   font-size: 1.8rem;
   color: #f6f6f6;
   background-color: black;
@@ -8,9 +8,9 @@ body {
 }
 
 .even--game--items__btn--start {
-  cursor: url(/img/cursorpoint.png), auto;
+  cursor: url(./img/cursorpoint.png), auto;
   transition: 0.2s;
-  background-image: url(/img/texturebtn.png);
+  background-image: url(./img/texturebtn.png);
   border-radius: 8px;
   border: 4px ridge black;
   box-shadow: 0px 0px 15px -4px;
@@ -26,14 +26,14 @@ body {
 }
 
 .even--game--items__btn--start:active {
-  cursor: url(/img/cursor.png), auto;
+  cursor: url(./img/cursor.png), auto;
   transition: 0.2s;
 }
 
 .even--game--items__btn--back {
   cursor: url(/img/cursorpoint.png), auto;
   transition: 0.2s;
-  background-image: url(/img/texturebtn.png);
+  background-image: url(./img/texturebtn.png);
   border-radius: 8px;
   border: 4px ridge black;
   box-shadow: 0px 0px 15px -4px;
@@ -47,14 +47,14 @@ body {
 }
 
 .even--game--items__btn--back:active {
-  cursor: url(/img/cursor.png), auto;
+  cursor: url(./img/cursor.png), auto;
   transition: 0.2s;
 }
 
 .even--game--items__btn--reset {
-  cursor: url(/img/cursorpoint.png), auto;
+  cursor: url(./img/cursorpoint.png), auto;
   transition: 0.2s;
-  background-image: url(/img/texturebtn.png);
+  background-image: url(./img/texturebtn.png);
   border-radius: 8px;
   border: 4px ridge black;
   box-shadow: 0px 0px 15px -4px;
@@ -69,14 +69,14 @@ body {
 }
 
 .even--game--items__btn--reset:active {
-  cursor: url(/img/cursor.png), auto;
+  cursor: url(./img/cursor.png), auto;
   transition: 0.2s;
 }
 
 
 .section--evengame {
   position: relative;
-  background: url(/img/evenbackground.jpg);
+  background: url(./img/evenbackground.jpg);
   background-repeat: no-repeat;
   background-position: 90%;
   overflow: hidden;
@@ -96,7 +96,7 @@ body {
 
 .section--evengame--start {
   position: relative;
-  background: url(/img/gamebackground.jpg);
+  background: url(./img/gamebackground.jpg);
   background-repeat: no-repeat;
   background-position: 90%;
   overflow: hidden;
