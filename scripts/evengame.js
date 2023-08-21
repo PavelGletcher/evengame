@@ -23,7 +23,7 @@ function roundOne (){
       if (userAnswerOne == isEvenOne) {
         document.querySelector('.even--game--items__is').innerHTML = "1/3 верно!";
         roundTwo ();
-      } else { document.querySelector('.even--game--items__is').innerHTML = "✖  Ответ неверный!  ✖ <br> Попробуйте еще раз"; setTimeout(() => window.location.href = "start.html", 2000);};
+      } else { document.querySelector('.even--game--items__is').innerHTML = "✖  Ответ неверный!  ✖ <br> Попробуйте еще раз";};
     };
   }); 
 };
@@ -39,7 +39,7 @@ function roundTwo (){
         document.querySelector('.even--game--items__is').innerHTML = "2/3 верно!";
         document.querySelector('.even--game--items__randomitems').innerHTML = randomNumberThree;
         roundThree ();
-      } else { document.querySelector('.even--game--items__is').innerHTML = "✖  Ответ неверный!  ✖ <br> Попробуйте еще раз"; setTimeout(() => window.location.href = "start.html", 2000);};
+      } else { document.querySelector('.even--game--items__is').innerHTML = "✖  Ответ неверный!  ✖ <br> Попробуйте еще раз";};
     };
   });  
 };
@@ -51,10 +51,9 @@ function roundThree (){
       userAnswerThree = this.value;
       isUserAnswer();
       if (userAnswerThree == isEvenThree) {
-        document.querySelector('.even--game--items__is').innerHTML = "ВЫ ПОБЕДИЛИ!! Запускаю сначала :)";
+        document.querySelector('.even--game--items__is').innerHTML = "ВЫ ПОБЕДИЛИ!! Давайте еще раз :)";
         document.querySelector('.even--game--items__randomitems').innerHTML = "- - - - -";
-        setTimeout(() => window.location.href = "start.html", 3000);
-      } else { document.querySelector('.even--game--items__is').innerHTML = "✖  Ответ неверный!  ✖ <br> Попробуйте еще раз"; setTimeout(() => window.location.href = "start.html", 4000);};
+      } else { document.querySelector('.even--game--items__is').innerHTML = "✖  Ответ неверный!  ✖ <br> Попробуйте еще раз";};
     };
   });  
 };
